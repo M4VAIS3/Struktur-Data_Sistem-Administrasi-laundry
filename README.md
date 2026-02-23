@@ -8,9 +8,9 @@
 
 ## ⚙️ Struktur Data
 Program ini menonjolkan implementasi **Multi-Linked List (MLL)** dengan pembagian struktur sebagai berikut:
-- **Parent List (Double Linked List):** Menyimpan entitas utama program, yaitu data **Customer/Pelanggan**.
-- **Child List (Single Linked List):** Menyimpan entitas sekunder, yaitu data **Layanan** yang tersedia dari usaha laundry.
-- **List Relasi (Multi-Linked List):** Menghubungkan node Parent dan Child untuk mencatat riwayat transaksi secara dinamis dan terstruktur.
+- **Parent List (_Double Linked List_):** Menyimpan entitas utama program, yaitu data **Customer/Pelanggan**.
+- **Child List (_Single Linked List_):** Menyimpan entitas sekunder, yaitu data **Layanan** yang tersedia dari usaha laundry.
+- **List Relasi (_Multi-Linked List_):** Menghubungkan node Parent dan Child untuk mencatat riwayat transaksi secara dinamis dan terstruktur.
 
 
 ## ✨ Fitur Utama
@@ -19,7 +19,7 @@ Program ini menonjolkan implementasi **Multi-Linked List (MLL)** dengan pembagia
 -> Insert, Search, Update, dan Delete (CRUD) pada data Layanan (List Child).
 -> Membuat, memutus, dan mencari relasi antara data Pelanggan dan Layanan.
 -> Menampilkan seluruh relasi antara Pelanggan dengan Layanan yang digunakan.
--> Menghitung jumlah dari masing-masing relasi yakni, Pelanggan yang menggunakan Layanan (dan sebaliknya) serta Pelanggan yang belum menggunakan layanan (dan sebaliknya)
+-> Menghitung jumlah dari masing-masing relasi yakni, Pelanggan yang menggunakan Layanan (dan sebaliknya) serta Pelanggan yang belum menggunakan layanan (dan sebaliknya).
 ```
 
 ## 🚀 Cara Menjalankan Program
@@ -40,11 +40,11 @@ Pastikan kompilator C++ (seperti MinGW/GCC) sudah terpasang di komputermu.
     ```
 
 ## 📁 Struktur Direktori
-- main.cpp : File utama yang berisi fungsi utama dan antarmuka program (CLI).
-- sistemLaundry.h : File header yang berisi deklarasi _struct, pointer_, dan prototipe fungsi/prosedur.
-- sistemLaundry.cpp : File implementasi logika struktur data dan fungsi operasi MLL.
-- .gitignore : Berkas konfigurasi untuk mengabaikan _compiled binary_ (seperti .exe) agar tidak masuk ke _repository_.
-- README.md : Dokumentasi informasi proyek.
+- **main.cpp** : File utama yang berisi fungsi utama dan antarmuka program (CLI).
+- **sistemLaundry.h** : File header yang berisi deklarasi _struct, pointer_, dan prototipe fungsi/prosedur.
+- **sistemLaundry.cpp** : File implementasi logika struktur data dan fungsi operasi MLL.
+- **.gitignore** : Berkas konfigurasi untuk mengabaikan _compiled binary_ (seperti .exe) agar tidak masuk ke _repository_.
+- **README.md** : Dokumentasi informasi proyek.
 
 ## 👥 Tim Pengembang
 ```
