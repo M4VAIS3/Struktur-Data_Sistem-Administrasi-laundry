@@ -1,0 +1,3 @@
+// Abaikan file yang bisa di execute
+*.exe
+*.o
