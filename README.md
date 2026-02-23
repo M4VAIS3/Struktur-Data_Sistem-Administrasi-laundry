@@ -12,8 +12,9 @@ Program ini menonjolkan implementasi **Multi-Linked List (MLL)** dengan pembagia
 - **Child List (Single Linked List):** Menyimpan entitas sekunder, yaitu data **Layanan** yang tersedia dari usaha laundry.
 - **List Relasi (Multi-Linked List):** Menghubungkan node Parent dan Child untuk mencatat riwayat transaksi secara dinamis dan terstruktur.
 
-```
+
 ## ✨ Fitur Utama
+```
 -> Insert, Search, Update, dan Delete (CRUD) pada data Pelangga (List Parent).
 -> Insert, Search, Update, dan Delete (CRUD) pada data Layanan (List Child).
 -> Membuat, memutus, dan mencari relasi antara data Pelanggan dan Layanan.
